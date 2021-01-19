@@ -78,7 +78,7 @@ def get_mean(number_list):
     """
     summ=0.0
     for k in range(0,len(number_list)):
-        summ+=number_list[k]
+        summ+=float(number_list[k])
     mean = summ/len(number_list)
     return mean
 
