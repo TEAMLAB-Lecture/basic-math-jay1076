@@ -105,10 +105,10 @@ def get_median(number_list):
     """
     s=sorted(number_list)
     tmp=len(number_list)
-    index=tmp//2-1
+    index=tmp//2
     if tmp%2==1:
         median=s[index]
     else:
-        median=(s[index]+s[index+1])/2.0
+        median=(s[index-1]+s[index])/2.0
 
     return median
