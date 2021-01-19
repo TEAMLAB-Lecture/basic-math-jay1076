@@ -108,6 +108,6 @@ def get_median(number_list):
     if tmp%2==1:
         median=number_list[tmp/2]
     else:
-        median=int((number_list[tmp/2]+number_list[(tmp/2)-1])/2)
+        median=(number_list[tmp/2]+number_list[(tmp/2)-1])/2
 
     return median
